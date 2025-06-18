@@ -1,0 +1,9 @@
+# Initialize the sum variable
+total = 0
+
+# Loop from 1 to 50 (inclusive)
+for number in range(1, 51):
+    total += number  # Add each number to the total
+
+# Print the result
+print("The sum of numbers from 1 to 50 is:", total)
